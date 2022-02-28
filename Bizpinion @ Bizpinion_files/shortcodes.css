@@ -1,0 +1,335 @@
+table.fancy_table{ 
+		border-collapse:separate; border-spacing:0;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+		border: 1px solid #FFFFFF;
+		width: 99%;
+		border-radius: 4px 4px 4px 4px;
+}
+.fancy_table th {
+    background: url("../images/shortcodes/th.png") repeat-x scroll 0 0 #F3F3F3;
+    border-bottom: 1px solid #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    vertical-align: middle;
+}
+.fancy_table td {
+    border-top: 1px solid #EEEEEE;
+    padding: 10px 20px;
+    text-align: center;
+}
+.fancy_table tr:hover {
+    background: url("../images/shortcodes/th.png") repeat-x scroll 0 0 #F3F3F3;
+}
+.fancy_table th:first-child, .fancy_table td:first-child {
+    padding-left: 30px;
+    text-align: left;
+}
+
+/* ------- 1. Dropcaps ------- */
+.dropcap1{
+	color:#fff;
+	float:left;
+	font-size:28px;
+	height:44px;
+	line-height:42px;
+	margin-bottom:-5px;
+	margin-right:10px;
+	text-align:center;
+	width:40px;
+	background:url(../images/sprite.png) -5px -151px no-repeat;}
+.dropcap2,.dropcap4{display:block;float:left;font-size:40px;line-height:40px;margin:0 8px -5px 0;}
+.dropcap3 {
+	background:url(../images/sprite.png) no-repeat scroll -7px -88px transparent;
+	color:#fff;
+	float:left;
+	font-size:15px;
+	height:40px;
+	line-height:32px;
+	margin-right:5px;
+	text-align:center;
+	width:37px;}
+	
+
+/* ------- 2. Pullquotes ------- */
+.pullquote_right,.pullquote_left{
+	padding:20px;
+	float:right;
+	font-size:14px;
+	letter-spacing:0px;
+	line-height:25px;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right:2px;
+	margin-top:20px;
+	width:33%;}
+.pullquote_left{float:left;margin-left:2px;margin-right:20px;}
+
+/* ------- 3. Highlight Styles ------- */
+.highlight{padding:2px 6px;}	
+
+
+/* ------- 4. Fancy Lists ------- */
+.star_list,.check_list,.arrow_list{margin-left:10px;list-style:none;color:#333;font-size:13px;}
+.star_list li,.check_list li,.arrow_list li,.colored_bullet_list li{padding-left:24px;margin:5px 0;list-style:none;}
+.arrow_list li{background:transparent url(../images/mini_icons.png) no-repeat scroll -262px -124px;}
+.check_list li{background:transparent url(../images/mini_icons.png) no-repeat scroll -222px -161px;}
+.star_list li{background:transparent url(../images/mini_icons.png) no-repeat scroll -341px -41px;}
+.bullet_list li{font-size:13px;margin:5px 0;}
+
+/* ------- 5. Fancy Links ------- */
+a.download_link{padding-left:24px; margin-right:10px; text-decoration:underline;background:url(../images/mini_icons.png) no-repeat scroll -378px -4px transparent;}
+a.email_link{padding-left:24px; margin-right:10px; text-decoration:underline;background:url(../images/mini_icons.png) no-repeat scroll -99px -282px transparent;}
+a.fancy_link{padding-right:15px; margin-right:10px;background:transparent url(../images/fancy_link.png) no-repeat scroll right top;}
+a.fancy_link:hover{text-decoration:underline;}
+a.download_link:hover,a.email_link:hover{color:#aaa !important;}
+
+/* ------- 11. Alternate Fancy Headers ------- */
+.coffee_background{background-color:#A49584 !important;}
+.teal_background{background-color:#246677 !important;}
+.copper_background{background-color:#D65D5D  !important;}
+.deep_sea_green_background{background-color:#27757f !important;}
+.earthy_green_background{background-color:#969F31 !important;}
+.hot_pink_background{background-color:#C1098B !important;}
+.navy_background{background-color:#5A7196 !important;}
+.primary_blue_background{background-color:#2379BF !important;}
+.primary_green_background{background-color:#20770D !important;}
+.primary_orange_background{background-color:#DA6233 !important;}
+.primary_purple_background{background-color:#8250C0 !important;}
+.primary_red_background{background-color:#A50000 !important;}
+.rich_black_background{background-color:#000000 !important;}
+.sienna_background{background-color:#835E46 !important;}
+.silver_background{background-color:#C1C1C0 !important;}
+.slate_grey_background{background-color:#8E959A !important;}
+.soft_purple_background{background-color:#8E779F !important;}
+.soft_teal_background{background-color:#267470 !important;}
+.glossy_black_background{background-color:#000000 !important;}
+.glossy_blue_background{background-color:#69707F !important;}
+.glossy_green_background{background-color:#5F774E !important;}
+.glossy_purple_background{background-color:#312739 !important;}
+.glossy_red_background{background-color:#750A09 !important;}
+.glossy_teal_background{background-color:#386876 !important;}
+.classic_white_lights_background{background-color:#93AAB2 !important;}
+.soft_orange_background{background-color:#DF9237 !important;}
+.olive_background{background-color:#A5AC80 !important;}
+.wine_background{background-color:#6C2057 !important;}
+.blue_background{background-color:#0281D2 !important;}
+.steel_blue_background{background-color:#88AEC6 !important;}
+.tan_background{background-color:#BBAF9B !important;}
+.lavender_background{background-color:#AD98B7 !important;}
+
+
+/* ------- 12. Alternate Color Text ------- */
+.coffee_color{color:#A49584 !important;}
+.teal_color{color:#246677 !important;}
+.copper_color{color:#D65D5D  !important;}
+.deep_sea_green_color{color:#27757f !important;}
+.earthy_green_color{color:#969F31 !important;}
+.hot_pink_color{color:#C1098B !important;}
+.navy_color{color:#5A7196 !important;}
+.primary_blue_color{color:#2379BF !important;}
+.primary_green_color{color:#20770D !important;}
+.primary_orange_color{color:#DA6233 !important;}
+.primary_purple_color{color:#8250C0 !important;}
+.primary_red_color{color:#A50000 !important;}
+.rich_black_color{color:#000000 !important;}
+.sienna_color{color:#835E46 !important;}
+.silver_color{color:#C1C1C0 !important;}
+.slate_grey_color{color:#8E959A !important;}
+.soft_purple_color{color:#8E779F !important;}
+.soft_teal_color{color:#267470 !important;}
+.glossy_black_color{color:#000000 !important;}
+.glossy_blue_color{color:#69707F !important;}
+.glossy_green_color{color:#5F774E !important;}
+.glossy_purple_color{color:#312739 !important;}
+.glossy_red_color{color:#750A09 !important;}
+.glossy_teal_color{color:#386876 !important;}
+.classic_white_lights_color{color:#93AAB2 !important;}
+.soft_orange_color{color:#DF9237 !important;}
+.olive_color{color:#A5AC80 !important;}
+.wine_color{color:#6C2057 !important;}
+.blue_color{color:#0281D2 !important;}
+.steel_blue_color{color:#88AEC6 !important;}
+.tan_color{color:#BBAF9B !important;}
+.lavender_color{color:#AD98B7 !important;}
+
+
+/* ________________________________________________________________________________________________________________
+										11. TABS 
+   ________________________________________________________________________________________________________________ */
+
+
+/* ------- 1. Shared Styles ------- */
+ul.tabs {margin:0 !important;padding:0;height:30px;clear:left;}
+ul.tabs li {float:left;padding:0; margin:0; list-style-type:none;}
+ul.tabs a { 
+	float:left;
+	display:block;
+	padding:5px 30px;	
+	text-decoration:none;
+	border-bottom:0px;
+	height:18px;
+	margin-right:2px;
+	position:relative;
+	top:1px;
+	font-size:10px;
+	letter-spacing:3px;
+	text-transform:uppercase;}
+ul.tabs a.current{cursor:default;}
+.tab_content{display:none;padding:20px 30px;overflow:hidden;}
+
+/* ------- 2. Framed Tabs ------- */
+.framed_tab_set ul.tabs {border-bottom:1px solid #E5E5E5;}
+.framed_tab_set ul.tabs a { 
+	border:1px solid #E5E5E5;
+	background:#fafafa;
+	color:#ccc;}
+.framed_tab_set ul.tabs a:hover {background: #fff;color:#999;}
+.framed_tab_set ul.tabs a.current {
+	border-bottom:2px solid #fff;
+	color:#333;	}
+.framed_tab_set .tab_content{
+	background-color:#fff !important;
+	border:1px solid #E5E5E5;
+	border-width:0 1px 1px 1px;}
+.framed_tab_set{margin-bottom:40px;}
+
+/* ------- 3. Minimalist Arrow Tabs ------- */
+.minimal_arrow_tab_set ul.tabs {padding:5px 1px;height:30px;background: url(../images/divider_shadow_inset.png) no-repeat scroll right bottom;}
+.minimal_arrow_tab_set ul.tabs a {height:25px;letter-spacing:2px;margin-right:20px;padding:0 0 10px 1px;}
+.minimal_arrow_tab_set ul.tabs a:hover {color:#444;}
+.minimal_arrow_tab_set ul.tabs a.current {color:#333;cursor:default;background: url(../images/up-arrow.png) no-repeat scroll center bottom transparent;}
+.minimal_arrow_tab_set{margin-bottom:40px;}
+.minimal_arrow_tab_set .tab_content{padding:20px 0;}
+
+
+/* ________________________________________________________________________________________________________________
+										13. Toggle Content 
+   ________________________________________________________________________________________________________________ */
+
+
+/* ------- 1. Minimal Toggles ------- */
+.toggle {
+	background: url(../images/toggle_sprite.png) no-repeat scroll -121px 5px;
+	font-size:16px;
+	line-height:30px;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:0 0 0 30px;}
+.toggle a {text-decoration: none;display: block;color:inherit;}
+.active {background:url(../images/toggle_sprite.png) no-repeat scroll -81px -35px}
+.toggle_content {clear:both;margin:0 0 20px 30px;overflow:hidden;}
+
+/* ------- 2. Framed Toggles ------- */
+.toggle_frame{padding:0 20px;margin:15px 2px;}
+.toggle_frame .toggle_content{border:0;padding:0px;}
+.toggle_frame .toggle_content .block {padding:0px;}
+.toggle_frame .toggle {background-position: -41px -75px;}
+.toggle_frame .active {background-position: -1px -115px;}
+
+
+/* ________________________________________________________________________________________________________________
+										14. Box Styles 
+   ________________________________________________________________________________________________________________ */
+
+.simple_box,.fancy_box,.fancy_titled_box_content,.color_scheme_box_content,.download_box,.warning_box,.info_box,.note_box{
+	position:relative;
+	overflow:hidden;
+	clear:both;
+	padding:20px;
+	margin-bottom:20px;}
+
+/* ------- 1. Simple Box ------- */
+.simple_box{
+	padding:20px;
+	position:relative;
+	margin:4px 4px 20px;}
+
+/* ------- 2. Fancy Box ------- */
+.fancy_box{
+	border:1px solid #fff;
+	margin:2px;
+	color:#888;
+	margin-bottom:20px;
+	padding:20px;}
+
+/* ------- 3. Fancy Titled Box ------- */
+
+.titled_box {
+    color: #888888;
+    margin-bottom: 20px;
+}
+.titled_box_title {
+    background: url("../images/shortcodes/button_overlay.png") repeat-x scroll 0 0 #111111;
+    border: 1px solid #111111;
+    padding: 10px 20px;
+	border-radius: 4px 4px 0 0;
+}
+.titled_box_content {
+    border: 1px solid #E5E5E5;
+    margin: 0;
+    padding: 20px;
+}
+
+h6.titled_box_header{
+	font-size:12px; 
+	text-transform:uppercase; 
+	letter-spacing:1px;
+	border-bottom:1px solid #fff;
+	margin:0;
+	padding:3px 3px 3px 20px;
+	text-transform:uppercase;
+}
+.titled_box_content{
+background: -moz-linear-gradient(center top , #FFFFFF, #F6F6F6) repeat scroll 0 0 transparent;
+border: 1px solid #E5E5E5;
+    margin: 0;
+    padding: 20px;
+	    clear: both;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+
+/* ------- 3. Fancy Colorscheme Box ------- */
+.color_scheme_box{margin:2px;color:#888;}
+.color_scheme_box_content{padding:20px;border:1px solid #e5e5e5;margin:0;}
+h6.color_scheme_box_header{
+	background:url(../images/button_sprite.png) no-repeat scroll right -165px transparent;
+	color:#eee;
+	text-shadow:0 -1px 0 #888888;
+	border-bottom:1px solid #fff;
+	font-size:11px;
+	line-height:10px;
+	margin:0 -4px 0 0;
+	padding-bottom:0;
+	padding-right:24px;
+	text-transform:uppercase;}
+h6.color_scheme_box_header span{
+	background:url(../images/button_sprite.png) no-repeat scroll -7px -122px transparent;
+	display:block;padding:15px 0 11px 20px;}
+
+/* ------- 4. Alert Boxes ------- */
+.download_box,.warning_box,.info_box,.note_box{padding-left:55px;background:#eee;padding-bottom:25px;padding-top:20px;}
+.info_box{
+	background:#bfe4f9 url(../images/icons/info.png) no-repeat scroll 10px 15px;
+	border:1px solid #68a2cf;
+	border-color:#A4D4EF;
+	color:#2e6093;}
+.warning_box{
+	background:#ffcccc url(../images/icons/stop.png) no-repeat scroll 10px 15px;
+	border:1px solid #ff9999;
+	color:#c31b00;}
+.download_box{
+	background:#dee3ab url(../images/icons/down_alt.png) no-repeat scroll 10px 15px;
+	border:1px solid #a3c159;
+	color:#5e6f33;}
+.note_box{
+	background:#fdebae url(../images/icons/notebook.png) no-repeat scroll 10px 15px;
+	border:1px solid #e6c555;
+	color:#9e660d;}
+

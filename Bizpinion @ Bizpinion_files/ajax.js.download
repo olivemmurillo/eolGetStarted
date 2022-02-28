@@ -1,0 +1,48 @@
+function callAjax(elementID,PageUrl){
+//alert("On called ajax:"+PageUrl+elementID);
+	var http = false;
+	var eresult = 0;
+
+		if(navigator.appName == "Microsoft Internet Explorer") {
+		  http = new ActiveXObject("Microsoft.XMLHTTP");
+		} else {
+		  http = new XMLHttpRequest();
+		}
+
+		http.abort();
+		http.open("GET", PageUrl, true);
+		http.onreadystatechange=function() {
+		    if(http.readyState == 4) {
+		      if(http.responseText == "incorrect"){
+	
+		      }else{
+
+		      }
+		    }
+		}
+	http.send(null);
+	
+}
+function callAjaxContent(PageUrl){
+	var http = false;
+	var loadcontent = "";
+
+		if(navigator.appName == "Microsoft Internet Explorer") {
+		  http = new ActiveXObject("Microsoft.XMLHTTP");
+		} else {
+		  http = new XMLHttpRequest();
+		}
+
+		http.open("GET", PageUrl, false);
+		http.send(null);
+	
+	if (http.status === 200) {
+		loadcontent = http.responseText;
+	}
+    else {
+        loadcontent = "Request Failed..";
+    }
+
+    return loadcontent;
+}
+

@@ -1,0 +1,21 @@
+$(document).ready(function(){  
+	jQuery( "#tabs" ).tabs();
+		/* 
+	 * toggle functions 
+	 */
+	//Hide (Collapse) the toggle containers on load
+	jQuery(".toggle_content").hide(); 
+
+	//Switch the "Open" and "Close" state per click
+	jQuery("h4.toggle").toggle(function(){
+		jQuery(this).addClass("active");
+		}, function () {
+		jQuery(this).removeClass("active");
+	});
+
+	//Slide up and down on click
+	jQuery("h4.toggle").click(function(){
+		jQuery(this).next(".toggle_content").slideToggle();
+	});
+	
+}); 
